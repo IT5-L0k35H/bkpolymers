@@ -777,7 +777,7 @@
             submitHandler: function (form) {
                 $.ajax({
                     type: "POST",
-                    url: "https://formspree.io/xknqagyb",
+                    url: "mail.php",
                     data: $(form).serialize(),
                     success: function () {
                         $( "#loader").hide();
